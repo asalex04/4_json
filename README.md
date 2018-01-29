@@ -1,20 +1,13 @@
-# Prettify JSON
 
-[TODO. There will be project description]
+# Prettify JSON
+`Pretty_print` program is designed to format data from a file in `json` format for convenient reading
 
 # Quickstart
 
-[TODO]
-
 Example of script launch on Linux, Python 3.5:
-
 ```bash
-
-$ python pprint_json.py <path to file>
-# TODO add output example
-
+$ python pprint_json.py 
+Then: insert path to the file in `json` formatn
 ```
-
 # Project Goals
-
-The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)
+The code is written for educational purposes. Training course for web-developers - DEVMAN.org
