@@ -1,6 +1,6 @@
 
 # Prettify JSON
-`Pretty_print` program is designed to format data from a file in `json` format for convenient reading
+`pprint_json.py` program is designed to format data from a file in `json` format for convenient reading
 
 # Quickstart
 
@@ -10,4 +10,4 @@ $ python pprint_json.py
 Then: insert path to the file in `json` formatn
 ```
 # Project Goals
-The code is written for educational purposes. Training course for web-developers - DEVMAN.org
+The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)
