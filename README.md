@@ -6,8 +6,8 @@
 
 Example of script launch on Linux, Python 3.5:
 ```bash
-$ python pprint_json.py 
-Then: insert path to the file in `json` formatn
+$ python pprint_json.py test.json
+
 ```
 # Project Goals
 The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)
