@@ -5,7 +5,7 @@
 # Quickstart
 How to run:
 ```bash
-$ python pprint_json.py <path tp file>
+$ python pprint_json.py <path to file>
 
 ```
 Example of script launch on Linux, Python 3.5:
