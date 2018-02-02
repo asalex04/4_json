@@ -23,7 +23,8 @@ if __name__ == '__main__':
         filepath = argv[1]
         if os.path.isfile(filepath):
             pretty_print_json(load_data(filepath))
-        else: print('File not found')
+        else: 
+            print('File not found')
     except ValueError:
         print('Invalid argument value')
 
