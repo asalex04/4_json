@@ -4,11 +4,8 @@ import os
 
 
 def load_data(filepath):
-    if os.path.isfile(filepath) and filepath.endswith(".json"):
-       with open(filepath, 'r', encoding='utf-8') as my_file:
-           return json.loads(my_file.read())
-    else:
-        print('File not found or not json format')
+   with open(filepath, 'r', encoding='utf-8') as my_file:
+       return json.loads(my_file.read())
 
 
 def pretty_print_json(json_content):
@@ -22,4 +19,13 @@ def pretty_print_json(json_content):
 
 if __name__ == '__main__':
 
-    pretty_print_json(load_data(argv[1]))
+    try:
+        filepath = argv[1]
+        if os.path.isfile(filepath):
+            pretty_print_json(load_data(filepath))
+        else: print('File not found')
+    except ValueError:
+        print('Invalid argument value')
+
+
+
