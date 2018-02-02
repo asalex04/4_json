@@ -27,6 +27,8 @@ if __name__ == '__main__':
             print('File not found')
     except ValueError:
         print('Invalid argument value')
+    except IndexError:
+        print('Index is out of range')
 
 
 
